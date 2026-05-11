@@ -40,7 +40,7 @@ export const blogPosts = [
     icon: Globe,
     summary: "Debate entre el modelo Universalista (todos iguales) y el Diferenciado (trato especial a minorías).",
     content: `
-      <p>en este segundo post quiero que hablemos de algo que está cambiando por completo la forma en que entendemos nuestro lugar en el mundo. elegí el tema de la ciudadanía global y los avances tecnológicos porque, como estudiante de derecho, me doy cuenta de que las fronteras ya no son muros de piedra, sino líneas que cruzamos todo el tiempo gracias al internet y a la facilidad de movernos de un país a otro.</p>
+      <p>Para el subtema 12.3 quiero que hablemos de algo que está cambiando por completo la forma en que entendemos nuestro lugar en el mundo. elegí el tema de la ciudadanía global y los avances tecnológicos porque, como estudiante de derecho, me doy cuenta de que las fronteras ya no son muros de piedra, sino líneas que cruzamos todo el tiempo gracias al internet y a la facilidad de movernos de un país a otro.</p>
 
       <p>seguramente todos tenemos un familiar o un amigo que se fue a otro país buscando mejores oportunidades. esto nos hace preguntarnos qué significa realmente ser ciudadano hoy en día. ¿soy solo ciudadano del lugar donde nací o soy parte de algo mucho más grande? aquí es donde entran conceptos que suenan complicados pero que son parte de nuestra realidad, como el postnacionalismo y lo transnacional.</p>
 
@@ -63,9 +63,9 @@ export const blogPosts = [
     icon: MessageSquare,
     summary: "La ética no es un código rígido, sino que se encuentra en el encuentro con el 'Otro' (Buber/Levinas).",
     content: `
-      <p>Siguiendo el pensamiento de Buber y Levinas, la ética surge en el encuentro con el otro. No es un conjunto de reglas frías, sino una responsabilidad que nace del diálogo.</p>
-      
-      <p>La verdad surge del diálogo. <strong>Punto clave:</strong> La conciencia personal es la guía, pero debe equilibrarse con el bien común para no caer en un subjetivismo egoísta.</p>
+      <p>El subtema 13.1 me parece super necesario para nuestra carrera: el diálogo y la interdependencia. elegí este subtema porque en el derecho solemos pensar que todo se resuelve con un libro de leyes bajo el brazo, pero la realidad es mucho más compleja. estamos rodeados de dilemas éticos que no tienen una respuesta única, desde casos de corrupción o sobornos en los negocios, hasta temas de bioética como el derecho a una muerte digna o la protección del medio ambiente para las generaciones que vienen.</p>
+
+      <p>lo que aprendí en este módulo es que, ante problemas tan difíciles, la mejor herramienta que tenemos es la ética del diálogo. me llamó mucho la atención la propuesta de filósofos como martin buber y emanuel levinás. ellos dicen algo muy profundo: la verdad no está en un código de reglas frías, sino en la existencia humana y en el encuentro con el otro. levinás decía que la dignidad de nuestra persona solo se encuentra cuando nos encontramos con los demás y dialogamos de verdad.</p>
 
       <div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
         <iframe
@@ -76,8 +76,12 @@ export const blogPosts = [
           allowfullscreen
         ></iframe>
       </div>
-      
-      <p>La interdependencia nos recuerda que nuestras acciones afectan a los demás y que el diálogo es la herramienta fundamental para la resolución de conflictos.</p>
+
+      <p>esto significa que somos seres interdependientes. no podemos ser humanos ni éticos nosotros solos en una burbuja. nuestra conciencia nos llama a decidir entre el bien y el mal, y aunque somos autónomos para decidir, esa decisión siempre tiene un impacto en los demás, en los llamados stakeholders, que son todas las personas involucradas en un proyecto o situación, desde los empleados hasta los clientes.</p>
+
+      <p>sin embargo, como futura abogada, también me puse a pensar en los retos que tiene esta forma de ver la ética. no se trata solo de decir sentí que era lo correcto y ya. hay tres cosas que me dejaron pensando mucho. primero, no podemos ser los únicos dictadores de lo que está bien o mal ignorando la sabiduría que ya existe desde hace siglos. segundo, ¿qué pasa cuando no nos ponemos de acuerdo? si el diálogo no llega a un consenso, no significa que no haya algo correcto. y tercero, ¿cómo logramos que un equipo trabaje unido si cada quien solo sigue su perspectiva personal?</p>
+
+      <p>me gusta este enfoque porque valora las diferencias culturales y nos invita a escucharnos, pero creo que el secreto está en el equilibrio. el diálogo es básico para llegar a acuerdos en una sociedad tan mezclada como la nuestra, pero no podemos olvidar que también hay que buscar el bien común y respetar los códigos de conducta que nos dan orden. al final, ser profesional se trata de eso, de sentarnos a platicar, reconocer que nos necesitamos unos a otros y buscar soluciones donde la dignidad de cada persona sea lo más importante. nos vemos en el siguiente post para platicar sobre la empatía.</p>
     `
   },
   {
