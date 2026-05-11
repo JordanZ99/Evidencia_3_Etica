@@ -1,65 +1,232 @@
-import Image from "next/image";
+"use client"
+
+import { useState } from "react"
+import Image from "next/image"
+import { motion, AnimatePresence } from "framer-motion"
+import { blogPosts } from "@/lib/data"
+import { Scale, Heart, Shield, Globe, X, Calendar, Tag } from "lucide-react"
 
 export default function Home() {
+  const [selectedPost, setSelectedPost] = useState<typeof blogPosts[0] | null>(null)
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="flex flex-col">
+      {/* Hero Section */}
+      <section className="relative h-[80vh] flex items-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/hero.png"
+            alt="Hero Background"
+            fill
+            className="object-cover brightness-50"
+            priority
+          />
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center md:text-left">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="max-w-2xl"
+          >
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+              Ética Profesional y Ciudadana<br></br><span className="text-gold">Evidencia 3</span>
+            </h1>
+            <p className="text-xl text-white/80 mb-8">
+              Hecho por: Carolina Anaya Sánchez.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Misión Section */}
+      <section id="mision" className="py-24 bg-accent dark:bg-accent/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              <h2 className="text-4xl font-bold mb-6 text-navy dark:text-white">Ética del Diálogo e <span className="text-gold">Interdependencia</span></h2>
+              <p className="text-lg text-muted mb-6">
+                Creemos que la ética no es un código rígido, sino que se encuentra en el encuentro genuino con el otro. La verdad surge del diálogo auténtico y la escucha profunda.
+              </p>
+              <p className="text-lg text-muted">
+                Nuestra práctica se basa en el reconocimiento de que la conciencia personal es la guía, pero siempre equilibrada con el bien común para evitar el subjetivismo.
+              </p>
+            </motion.div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="p-8 bg-white dark:bg-navy rounded-2xl shadow-xl border border-border mt-8">
+                <Shield className="h-8 w-8 text-gold mb-4" />
+                <h4 className="font-bold mb-2">Justicia</h4>
+                <p className="text-xs text-muted">Defensa de los derechos fundamentales con rigor y pasión.</p>
+              </div>
+              <div className="p-8 bg-white dark:bg-navy rounded-2xl shadow-xl border border-border mt-8">
+                <Globe className="h-8 w-8 text-gold mb-4" />
+                <h4 className="font-bold mb-2">Ciudadanía</h4>
+                <p className="text-xs text-muted">Actuamos localmente con una visión global y digital.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Empatía Section */}
+      <section id="servicios" className="py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+          <h2 className="text-4xl font-bold mb-4 text-navy dark:text-white">Excelencia a través de la <span className="text-gold">Empatía</span></h2>
+          <p className="text-muted max-w-2xl mx-auto">
+            La capacidad de estar en los zapatos del otro es esencial para una resolución de conflictos efectiva y una comunicación auténtica.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            { title: "Escucha Activa", icon: Heart, desc: "Conexión genuina para entender la raíz de cada necesidad legal." },
+            { title: "Mediación", icon: Scale, desc: "Búsqueda de acuerdos que beneficien a todas las partes involucradas." },
+            { title: "Responsabilidad", icon: Shield, desc: "Compromiso ético inquebrantable en cada caso que representamos." }
+          ].map((item, idx) => (
+            <motion.div
+              key={idx}
+              whileHover={{ scale: 1.05 }}
+              className="p-8 bg-accent dark:bg-accent/5 rounded-2xl text-center border border-transparent hover:border-gold transition-all"
+            >
+              <item.icon className="h-10 w-10 text-gold mx-auto mb-6" />
+              <h3 className="text-xl font-bold mb-4">{item.title}</h3>
+              <p className="text-muted text-sm">{item.desc}</p>
+            </motion.div>
+          ))}
         </div>
-      </main>
+      </section>
+
+      {/* Blog Section (Directly here) */}
+      <section className="py-24 bg-navy text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="mb-12">
+            <h2 className="text-4xl font-bold mb-4 text-center md:text-left">5 subtemas que considero <span className="text-gold">esenciales</span></h2>
+            <p className="text-white/60 text-center md:text-left">Un resumen ejecutivo de los pilares de la ética profesional y ciudadana para mi evidencia.</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {blogPosts.map((post) => (
+              <motion.div
+                key={post.slug}
+                whileHover={{ y: -5 }}
+                onClick={() => setSelectedPost(post)}
+                className="bg-white dark:bg-navy p-6 rounded-xl border border-border/10 hover:shadow-2xl transition-all cursor-pointer group"
+              >
+                <div className="flex justify-between items-start mb-4">
+                  <div className="p-3 bg-accent dark:bg-accent/10 rounded-lg text-gold group-hover:scale-110 transition-transform">
+                    <post.icon className="h-6 w-6" />
+                  </div>
+                  <span className="text-[10px] uppercase tracking-widest font-bold text-muted">{post.date}</span>
+                </div>
+
+                <p className="text-xs font-bold text-gold mb-2 uppercase tracking-tight">{post.category}</p>
+                <h3 className="text-xl font-bold mb-3 leading-tight group-hover:text-gold transition-colors text-navy dark:text-white">
+                  {post.title}
+                </h3>
+                <p className="text-sm text-muted mb-6 line-clamp-3">
+                  {post.summary}
+                </p>
+
+                <span className="inline-flex items-center text-sm font-bold text-navy dark:text-white group-hover:text-gold transition-colors">
+                  Leer artículo completo
+                  <svg className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg>
+                </span>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Planetary Ethics Banner */}
+      <section className="py-20 bg-gold text-white overflow-hidden relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+          <div className="max-w-xl">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 italic">"La Tierra es un barco en peligro... Cuidar la naturaleza es defender la dignidad humana."</h2>
+            <p className="font-medium opacity-90">— Leonardo Boff, Ética Planetaria</p>
+          </div>
+        </div>
+        <div className="absolute right-0 top-0 opacity-10 translate-x-1/4 -translate-y-1/4">
+          <Globe className="h-96 w-96" />
+        </div>
+      </section>
+
+      {/* Post Modal */}
+      <AnimatePresence>
+        {selectedPost && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm"
+            onClick={() => setSelectedPost(null)}
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0, y: 20 }}
+              animate={{ scale: 1, opacity: 1, y: 0 }}
+              exit={{ scale: 0.9, opacity: 0, y: 20 }}
+              className="bg-white dark:bg-navy w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl relative"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                onClick={() => setSelectedPost(null)}
+                className="absolute top-6 right-6 p-2 bg-accent dark:bg-accent/10 rounded-full hover:bg-gold hover:text-white transition-all z-10"
+              >
+                <X className="h-6 w-6" />
+              </button>
+
+              <div className="p-8 md:p-12">
+                <div className="flex items-center gap-3 mb-6">
+                  <div className="p-2 bg-accent dark:bg-accent/10 rounded-lg text-gold">
+                    <selectedPost.icon className="h-6 w-6" />
+                  </div>
+                  <span className="text-sm font-bold text-gold uppercase tracking-widest">{selectedPost.category}</span>
+                </div>
+
+                <h2 className="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-8 leading-tight">
+                  {selectedPost.title}
+                </h2>
+
+                <div className="flex flex-wrap gap-6 mb-12 py-6 border-y border-border">
+                  <div className="flex items-center gap-2 text-sm text-muted">
+                    <Calendar className="h-4 w-4" />
+                    {selectedPost.date}
+                  </div>
+                  <div className="flex items-center gap-2 text-sm text-muted">
+                    <Tag className="h-4 w-4" />
+                    Tarea de Ética
+                  </div>
+                </div>
+
+                <div
+                  className="prose prose-lg dark:prose-invert max-w-none 
+                  prose-headings:text-navy dark:prose-headings:text-white 
+                  prose-h3:text-2xl prose-h3:mt-12 prose-h3:mb-6
+                  prose-p:text-muted prose-p:leading-relaxed prose-p:mb-6
+                  prose-strong:text-gold prose-blockquote:border-gold prose-blockquote:bg-accent/5 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-blockquote:italic"
+                  dangerouslySetInnerHTML={{ __html: selectedPost.content }}
+                />
+
+                <div className="mt-12 pt-8 border-t border-border">
+                  <button
+                    onClick={() => setSelectedPost(null)}
+                    className="px-8 py-3 bg-navy dark:bg-gold text-white rounded-xl font-bold hover:scale-105 transition-transform"
+                  >
+                    Cerrar Lectura
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
-  );
+  )
 }
