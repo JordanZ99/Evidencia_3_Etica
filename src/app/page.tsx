@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { blogPosts } from "@/lib/data"
-import { Scale, Heart, Shield, Globe, X, Calendar, Tag } from "lucide-react"
+import { Scale, Heart, Shield, Globe, X, Calendar, Tag, Zap, User } from "lucide-react"
 
 export default function Home() {
   const [selectedPost, setSelectedPost] = useState<typeof blogPosts[0] | null>(null)
@@ -52,10 +52,9 @@ export default function Home() {
             >
               <h2 className="text-4xl font-bold mb-6 text-navy">Ética del Diálogo e <span className="text-gold">Interdependencia</span></h2>
               <p className="text-lg text-muted mb-6">
-                La ética no es un código rígido, sino que se encuentra en el encuentro genuino con el otro. La verdad surge del diálogo auténtico y la escucha profunda.
+                Este video nos muestra la importancia de encontrar un equilibrio en nuestras relaciones interpersonales, reconociendo nuestra naturaleza humana como seres interdependientes.
               </p>
               <p className="text-lg text-muted">
-                Nuestra práctica se basa en el reconocimiento de que la conciencia personal es la guía, pero siempre equilibrada con el bien común para evitar el subjetivismo.
               </p>
             </motion.div>
             <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border">
@@ -71,20 +70,32 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Empatía Section */}
-      <section id="servicios" className="py-24">
+      {/* Conceptos Clave Section */}
+      <section id="conceptos" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-navy">Excelencia a través de la <span className="text-gold">Empatía</span></h2>
+          <h2 className="text-4xl font-bold mb-4 text-navy">Conceptos <span className="text-gold">Clave</span></h2>
           <p className="text-muted max-w-2xl mx-auto">
-            La capacidad de estar en los zapatos del otro es esencial para una resolución de conflictos efectiva y una comunicación auténtica.
+            Pilares fundamentales para comprender nuestra responsabilidad ética en el mundo actual.
           </p>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { title: "Escucha Activa", icon: Heart, desc: "Conexión genuina para entender la raíz de cada necesidad legal." },
-            { title: "Mediación", icon: Scale, desc: "Búsqueda de acuerdos que beneficien a todas las partes involucradas." },
-            { title: "Responsabilidad", icon: Shield, desc: "Compromiso ético inquebrantable en cada caso que representamos." }
+            { 
+              title: "Dignidad Humana", 
+              icon: User, 
+              desc: "Es el valor intrínseco de cada persona por el simple hecho de serlo, sin importar su nacionalidad o condición. Es la base de los Derechos Humanos y el límite ético que impide que las personas sean tratadas como objetos o mercancía." 
+            },
+            { 
+              title: "Interdependencia", 
+              icon: Globe, 
+              desc: "Es el reconocimiento de que nuestras vidas y acciones están conectadas con los demás y con el entorno. En la Ética del Diálogo, implica que no somos seres aislados, sino que nos necesitamos mutuamente para alcanzar una justicia real y un bien común." 
+            },
+            { 
+              title: "Agencia Ciudadana", 
+              icon: Zap, 
+              desc: "Es la capacidad y responsabilidad de cada individuo para actuar y generar cambios positivos en su comunidad. No solo se trata de tener derechos, sino de ejercerlos activamente mediante la empatía y el compromiso con la ética planetaria." 
+            }
           ].map((item, idx) => (
             <motion.div
               key={idx}
@@ -93,7 +104,7 @@ export default function Home() {
             >
               <item.icon className="h-10 w-10 text-gold mx-auto mb-6" />
               <h3 className="text-xl font-bold mb-4">{item.title}</h3>
-              <p className="text-muted text-sm">{item.desc}</p>
+              <p className="text-muted text-sm leading-relaxed">{item.desc}</p>
             </motion.div>
           ))}
         </div>
