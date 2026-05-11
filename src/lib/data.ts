@@ -69,7 +69,7 @@ export const blogPosts = [
 <br>
       <p>Esto significa que somos seres interdependientes. no podemos ser humanos ni éticos nosotros solos en una burbuja. nuestra conciencia nos llama a decidir entre el bien y el mal, y aunque somos autónomos para decidir, esa decisión siempre tiene un impacto en los demás, en los llamados stakeholders, que son todas las personas involucradas en un proyecto o situación, desde los empleados hasta los clientes.</p>
 <br>
-      <p>Sin embargo, como futura abogada, también me puse a pensar en los retos que tiene esta forma de ver la ética. no se trata solo de decir sentí que era lo correcto y ya. hay tres cosas que me dejaron pensando mucho. primero, no podemos ser los únicos dictadores de lo que está bien o mal ignorando la sabiduría que ya existe desde hace siglos. segundo, ¿qué pasa cuando no nos ponemos de acuerdo? si el diálogo no llega a un consenso, no significa que no haya algo correcto. y tercero, ¿cómo logramos que un equipo trabaje unido si cada quien solo sigue su perspectiva personal?</p>
+      <p>Sin embargo, como futura abogada, también me puse a pensar en los retos que tiene esta forma de ver la ética. no se trata solo de decir sentí que era lo correcto y ya. hay tres cosas que me dejaron pensando mucho. primero, no podemos ser los únicos dictadores de lo que está bien o mal ignorando la sabiduría que ya existe hace siglos. segundo, ¿qué pasa cuando no nos ponemos de acuerdo? si el diálogo no llega a un consenso, no significa que no haya algo correcto. y tercero, ¿cómo logramos que un equipo trabaje unido si cada quien solo sigue su perspectiva personal?</p>
 <br>
       <p>Me gusta este enfoque porque valora las diferencias culturales y nos invita a escucharnos, pero creo que el secreto está en el equilibrio. el diálogo es básico para llegar a acuerdos en una sociedad tan mezclada como la nuestra, pero no podemos olvidar que también hay que buscar el bien común y respetar los códigos de conducta que nos dan orden. al final, ser profesional se trata de eso, de sentarnos a platicar, reconocer que nos necesitamos unos a otros y buscar soluciones donde la dignidad de cada persona sea lo más importante. nos vemos en el siguiente post para platicar sobre la empatía.</p>
 <br>
@@ -83,7 +83,22 @@ export const blogPosts = [
         ></iframe>
       </div>
 
-      <p>Este video nos muestra la importancia de encontrar un equilibrio en nuestras relaciones interpersonales, reconociendo nuestra naturaleza humana como seres interdependientes.</p>
+      <p class="mb-8">Este video nos muestra la importancia de encontrar un equilibrio en nuestras relaciones interpersonales, reconociendo nuestra naturaleza humana como seres interdependientes.</p>
+
+      <div class="bg-accent/30 p-8 rounded-2xl border-2 border-gold/20 my-8">
+        <h3 class="text-gold font-bold text-2xl mb-4">Actividad: Elaborar un mapa mental de "La Ética del Diálogo e Interdependencia"</h3>
+        <p class="mb-4 italic text-muted">Para aterrizar todos los conceptos que vamos a explorar en este post, te invito a realizar la siguiente actividad. Esto te ayudará a visualizar cómo la ética del diálogo conecta todas las áreas de nuestra vida profesional.</p>
+        
+        <p class="font-bold mb-2 uppercase tracking-widest text-xs text-navy">Instrucciones:</p>
+        <p class="mb-4 text-muted"><strong>Ramas Principales:</strong> Crea al menos cuatro ramas que incluyan:</p>
+        <ul class="list-disc pl-6 space-y-2 mb-6 text-muted">
+          <li><strong>Desafíos Éticos:</strong> (Aquí puedes poner ejemplos de negocios, bioética o medio ambiente).</li>
+          <li><strong>Fundamentos:</strong> (Menciona a autores como Boff o Levinás y el concepto de "el valor del otro").</li>
+          <li><strong>La Conciencia:</strong> (Explica brevemente la autonomía del individuo frente a las reglas).</li>
+        </ul>
+        
+        <p class="text-sm text-muted">Utiliza colores diferentes para cada rama y añade iconos o dibujos que representen los conceptos. ¡Siéntete libre de compartir tu mapa mental con el resto de la clase!</p>
+      </div>
     `
   },
   {
