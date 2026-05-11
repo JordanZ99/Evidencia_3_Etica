@@ -52,7 +52,7 @@ export default function Home() {
             >
               <h2 className="text-4xl font-bold mb-6 text-navy">Ética del Diálogo e <span className="text-gold">Interdependencia</span></h2>
               <p className="text-lg text-muted mb-6">
-                Creemos que la ética no es un código rígido, sino que se encuentra en el encuentro genuino con el otro. La verdad surge del diálogo auténtico y la escucha profunda.
+                La ética no es un código rígido, sino que se encuentra en el encuentro genuino con el otro. La verdad surge del diálogo auténtico y la escucha profunda.
               </p>
               <p className="text-lg text-muted">
                 Nuestra práctica se basa en el reconocimiento de que la conciencia personal es la guía, pero siempre equilibrada con el bien común para evitar el subjetivismo.
