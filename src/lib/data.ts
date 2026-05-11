@@ -3,23 +3,23 @@ import { Scale, Globe, MessageSquare, Heart, Sprout } from "lucide-react"
 export const blogPosts = [
   {
     slug: "derechos-humanos-fundamentos",
-    title: "11.1 Derechos Humanos (El Cimiento)",
+    title: "11.1 Derechos Humanos",
     date: "09 Mayo, 2026",
     category: "Fundamentos de Justicia",
     icon: Scale,
     summary: "No son solo leyes, sino un 'ideal común' nacido del dolor de la guerra (1948).",
     content: `
-      <p>Quiero platicarles sobre un tema que para mí como estudiante de Derecho es fundamental. Elegí la Declaración Universal de los Derechos Humanos porque siento que es la base de todo lo que hacemos en esta carrera. A veces pensamos en las leyes como algo aburrido o solo papeles, pero este documento en especial nació de un momento muy oscuro de la historia, justo después de la Segunda Guerra Mundial, para recordarnos que todos valemos lo mismo sin importar de dónde vengamos.</p>
+      <p>Para mí el tema de los derechos humanos es fundamental en el ámbito de derecho. Elegí la Declaración Universal de los Derechos Humanos porque siento que es la base de todo lo que hacemos en esta carrera. A veces pensamos en las leyes como algo aburrido o solo papeles, pero este documento en especial nació de un momento muy oscuro de la historia, justo después de la Segunda Guerra Mundial, para recordarnos que todos valemos lo mismo sin importar de dónde vengamos.</p>
 
-      <p>Lo que más me gusta de este tema es que no se basa en religión o en dinero, sino en nuestra propia fragilidad humana. Es como un acuerdo que hicimos como especie para no volver a pasar por horrores como los de esa época. Aunque parece algo moderno, tiene raíces muy viejas. Por ejemplo, desde el <strong>Cilindro de Ciro</strong> en el siglo VI a.C. ya se hablaba de dejar que la gente regresara a sus tierras y practicara su religión. Luego pasamos por hitos como la Carta Magna en Inglaterra o lo que los filósofos llamaban Derecho Natural, que es básicamente lo que es válido en todas partes solo por sentido común.</p>
+      <p>Lo que más me gusta de este tema es que no se basa en religión o en dinero, sino en nuestra propia fragilidad humana. Es como un acuerdo que hicimos como especie para no volver a pasar por horrores como los de esa época. Aunque parece algo moderno, tiene raíces muy viejas. Por ejemplo, desde el cilindro de Ciro en el siglo VI a.C. ya se hablaba de dejar que la gente regresara a sus tierras y practicara su religión. Luego pasamos por hitos como la Carta Magna en Inglaterra o lo que los filósofos llamaban Derecho Natural, que es básicamente lo que es válido en todas partes solo por sentido común.</p>
 
-      <p>En clase aprendimos que estos derechos han pasado por un proceso llamado <strong>positivización</strong>, que es básicamente cuando pasan de ser ideas de filósofos a estar escritos en leyes y constituciones. De hecho, en México los conocemos en nuestra Constitución de 1917 como garantías individuales.</p>
+      <p>En clase aprendimos que estos derechos han pasado por un proceso llamado positivización, que es básicamente cuando pasan de ser ideas de filósofos a estar escritos en leyes y constituciones. De hecho, en México los conocemos en nuestra Constitución de 1917 como garantías individuales.</p>
 
       <h3>Las Tres Capas (Generaciones)</h3>
       <p>Algo que me ayudó mucho a entender esto es dividirlo en capas o generaciones:</p>
       <ul>
         <li><strong>Primera Capa (Libertad):</strong> Son los derechos civiles y políticos, como el derecho a la vida, a la privacidad y a poder elegir a nuestros gobernantes.</li>
-        <li><strong>Segunda Capa (Igualdad):</strong> Busca que el Estado no solo nos deje ser libres, sino que también nos provea salud, educación y trabajo para que todos vivamos mejor.</li>
+        <li><strong>Segunda Capa (Equality):</strong> Busca que el Estado no solo nos deje ser libres, sino que también nos provea salud, educación y trabajo para que todos vivamos mejor.</li>
         <li><strong>Tercera Capa (Derechos Colectivos):</strong> Es la más nueva; protege a grupos vulnerables como niños, personas con discapacidad o grupos indígenas, e incluso nuestro derecho a vivir en un ambiente limpio.</li>
       </ul>
 
@@ -40,12 +40,19 @@ export const blogPosts = [
     icon: Globe,
     summary: "Debate entre el modelo Universalista (todos iguales) y el Diferenciado (trato especial a minorías).",
     content: `
-      <p>En la era digital, la ciudadanía trasciende las fronteras físicas. El concepto de postnacionalismo nos invita a repensar nuestra identidad en un mundo interconectado.</p>
-      
-      <h3>Universalismo vs. Diferenciación</h3>
-      <p>Existe un debate constante entre tratar a todos por igual ante la ley (Universalismo) y otorgar trato especial a minorías para garantizar una verdadera equidad (Modelo Diferenciado).</p>
+      <p>en este segundo post quiero que hablemos de algo que está cambiando por completo la forma en que entendemos nuestro lugar en el mundo. elegí el tema de la ciudadanía global y los avances tecnológicos porque, como estudiante de derecho, me doy cuenta de que las fronteras ya no son muros de piedra, sino líneas que cruzamos todo el tiempo gracias al internet y a la facilidad de movernos de un país a otro.</p>
 
-      <p>La tecnología ha creado una ciudadanía global, pero para que sea democrática, sigue necesitando un ancla en la identidad nacional para ser verdaderamente efectiva y representativa.</p>
+      <p>seguramente todos tenemos un familiar o un amigo que se fue a otro país buscando mejores oportunidades. esto nos hace preguntarnos qué significa realmente ser ciudadano hoy en día. ¿soy solo ciudadano del lugar donde nací o soy parte de algo mucho más grande? aquí es donde entran conceptos que suenan complicados pero que son parte de nuestra realidad, como el postnacionalismo y lo transnacional.</p>
+
+      <p>antes de irnos a lo global, hay que ver lo que pasa dentro de méxico. somos un país con muchísima diversidad, con más de sesenta idiomas y muchísimos grupos étnicos. aquí hay un debate bien interesante entre dos modelos. por un lado está la ciudadanía diferenciada, que busca darle un trato preferencial a ciertos grupos para proteger su cultura. suena bien, pero el riesgo es que esos grupos se terminen encerrando en su propio mundo y no participen en la democracia nacional. por otro lado está el modelo universalista, que dice que todos somos iguales ante la ley y punto. este es el que más se usa en méxico, pero la verdad es que aunque la ley diga que somos iguales, en la práctica sigue habiendo mucha marginación. se intenta que todos nos asimilemos a una sola cultura nacional y eso a veces termina aplastando las visiones de las minorías.</p>
+
+      <p>la profesora leydet de canadá dice algo que me parece muy sensato: no hay que generalizar. cada caso es diferente y depende de su contexto. a veces necesitamos ese sentimiento de comunidad nacional, como cuando pasa un terremoto o una inundación y todos nos unimos sin importar de qué grupo somos. ese sentido de pertenencia a una nación es lo que hace que nos sacrifiquemos por los demás.</p>
+
+      <p>pero entonces, ¿qué pasa con la tecnología? ahora podemos estar conectados con alguien del otro lado del planeta en segundos. esto ha creado la idea del postnacionalismo, donde lo más importante no es tu bandera, sino principios universales como los derechos humanos y la legalidad. puedes ser un buen ciudadano y amar a tu país sin ser un nacionalista extremo que excluye a los demás. lo increíble es que aunque un mexicano esté trabajando en el extranjero, gracias a la tecnología sigue llevando su identidad y representando a su país.</p>
+
+      <p>muchos dicen que deberíamos tener una ciudadanía global porque problemas como el cambio climático o las crisis económicas no respetan fronteras. un país solo no puede resolver estos líos. pero aquí hay un dilema que me pone a pensar mucho: la democracia necesita pies en la tierra. los griegos hablaban del demos, que es el pueblo ubicado en un territorio concreto. si nos volvemos ciudadanos de todo el mundo, podríamos perder ese ancla, ese compromiso real con nuestra comunidad inmediata.</p>
+
+      <p>me parece un tema fascinante porque nos reta a ser mejores ciudadanos locales pero con una visión abierta al mundo. la tecnología es la herramienta que nos permite ser embajadores de nuestra cultura en cualquier rincón del planeta, pero al final del día, seguimos necesitando esa conexión real con nuestro pueblo y nuestra nación para que la justicia y la democracia tengan sentido. ¿ustedes qué creen? ¿se sienten más ciudadanos de su país o ciudadanos del mundo?</p>
     `
   },
   {
