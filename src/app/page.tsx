@@ -75,26 +75,26 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
           <h2 className="text-4xl font-bold mb-4 text-navy">Conceptos <span className="text-gold">Clave</span></h2>
           <p className="text-muted max-w-2xl mx-auto">
-            Pilares fundamentales para comprender nuestra responsabilidad ética en el mundo actual.
+            Palabras clave en los 5 subtemas que elegí.
           </p>
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { 
-              title: "Dignidad Humana", 
-              icon: User, 
-              desc: "Es el valor intrínseco de cada persona por el simple hecho de serlo, sin importar su nacionalidad o condición. Es la base de los Derechos Humanos y el límite ético que impide que las personas sean tratadas como objetos o mercancía." 
+            {
+              title: "Dignidad Humana",
+              icon: User,
+              desc: "Es el valor de cada persona por el simple hecho de serlo, sin importar su nacionalidad o condición."
             },
-            { 
-              title: "Interdependencia", 
-              icon: Globe, 
-              desc: "Es el reconocimiento de que nuestras vidas y acciones están conectadas con los demás y con el entorno. En la Ética del Diálogo, implica que no somos seres aislados, sino que nos necesitamos mutuamente para alcanzar una justicia real y un bien común." 
+            {
+              title: "Interdependencia",
+              icon: Globe,
+              desc: "Es el reconocimiento de que nuestras vidas y acciones están conectadas con los demás. Por lo que nos necesitamos mutuamente para alcanzar un bien común."
             },
-            { 
-              title: "Agencia Ciudadana", 
-              icon: Zap, 
-              desc: "Es la capacidad y responsabilidad de cada individuo para actuar y generar cambios positivos en su comunidad. No solo se trata de tener derechos, sino de ejercerlos activamente mediante la empatía y el compromiso con la ética planetaria." 
+            {
+              title: "Agencia Ciudadana",
+              icon: Zap,
+              desc: "Es la responsabilidad de cada individuo para actuar y generar cambios positivos en su comunidad mediante la empatía y el compromiso con la ética planetaria."
             }
           ].map((item, idx) => (
             <motion.div
