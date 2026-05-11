@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Misión Section */}
+      {/* Misión Section (Diálogo e Interdependencia) */}
       <section id="mision" className="py-24 bg-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -58,17 +58,14 @@ export default function Home() {
                 Nuestra práctica se basa en el reconocimiento de que la conciencia personal es la guía, pero siempre equilibrada con el bien común para evitar el subjetivismo.
               </p>
             </motion.div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="p-8 bg-white rounded-2xl shadow-xl border border-border mt-8">
-                <Shield className="h-8 w-8 text-gold mb-4" />
-                <h4 className="font-bold mb-2">Justicia</h4>
-                <p className="text-xs text-muted">Defensa de los derechos fundamentales con rigor y pasión.</p>
-              </div>
-              <div className="p-8 bg-white rounded-2xl shadow-xl border border-border mt-8">
-                <Globe className="h-8 w-8 text-gold mb-4" />
-                <h4 className="font-bold mb-2">Ciudadanía</h4>
-                <p className="text-xs text-muted">Actuamos localmente con una visión global y digital.</p>
-              </div>
+            <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border">
+              <iframe
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/rNLOma4tZ_Y"
+                title="Ética del Diálogo"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
@@ -169,13 +166,13 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-8 text-navy">Reflexión <span className="text-gold">Final</span></h2>
             <div className="space-y-6 text-lg text-muted text-left leading-relaxed">
               <p>
-                Esta asignatura ha marcado un punto de inflexión en mi perspectiva profesional. Al comprender que los <strong>Derechos Humanos</strong> y la <strong>Ciudadanía Global</strong> no son solo marcos legales, sino compromisos éticos diarios, me siento preparada para ejercer con una responsabilidad mucho más profunda.
+                Esta asignatura ha marcado un punto de inflexión en mi perspectiva profesional. Al comprender que los derechos humanos y la ciudadanía global no son solo marcos legales, sino compromisos éticos diarios, me siento preparada para ejercer con una responsabilidad mucho más profunda.
               </p>
               <p>
-                En mi <strong>entorno laboral</strong>, la práctica de la escucha empática y el diálogo genuino me permitirán no solo resolver conflictos, sino construir puentes de confianza. Entiendo ahora que mi actuar ético contribuye directamente a una cultura organizacional más humana y justa.
+                En mi entorno laboral, la práctica de la escucha empática y el diálogo genuino me permitirán no solo resolver conflictos, sino construir puentes de confianza. Entiendo ahora que mi actuar ético contribuye directamente a una cultura organizacional más humana y justa.
               </p>
               <p>
-                A nivel <strong>personal</strong>, la ética planetaria me invita a vivir de forma más consciente. Cada decisión, por pequeña que sea, tiene un impacto en nuestra interdependencia global. Esta asignatura no termina aquí; se convierte en la brújula que guiará mi conducta como ciudadana comprometida con la dignidad humana y el cuidado de nuestra casa común.
+                A nivel personal, la ética planetaria me invita a vivir de forma más consciente. Cada decisión, por pequeña que sea, tiene un impacto en nuestra interdependencia global. Esta asignatura no termina aquí; se convierte en la brújula que guiará mi conducta como ciudadana comprometida con la dignidad humana y el cuidado de nuestra casa común.
               </p>
             </div>
           </motion.div>
