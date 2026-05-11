@@ -8,7 +8,7 @@
   --primary-foreground: #ffffff;
   --secondary: #c5a059;
   --secondary-foreground: #ffffff;
-  --accent: #f8fafc;
+  --accent: #f1f8f1;
   --muted: #64748b;
   --border: #e2e8f0;
 }
@@ -21,7 +21,7 @@
   --color-accent: var(--accent);
   --color-muted: var(--muted);
   --color-gold: #c5a059;
-  --color-navy: #0a192f;
+  --color-navy: #295a2c;
   --font-serif: "Playfair Display", serif;
   --font-sans: "Inter", sans-serif;
 }
