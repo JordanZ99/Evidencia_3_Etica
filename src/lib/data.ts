@@ -30,6 +30,17 @@ export const blogPosts = [
       <p>Elegí este subtema porque creo que mi trabajo empieza por defender los derechos de mi entorno diario. No necesito ser una abogada famosa para respetar al vecino o ayudar a alguien que lo necesita.</p>
       
       <p>Les invito a pensar en cómo pueden aplicar hoy mismo uno de estos derechos en su propio entorno, porque al final, la justicia la construimos todos los días con nuestras acciones más pequeñas.</p>
+
+      <div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
+        <iframe
+          class="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/iSi_w2KslK8"
+          title="Los Derechos Humanos: Una Breve Introducción"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
     `
   },
   {
@@ -53,6 +64,17 @@ export const blogPosts = [
       <p>Muchos dicen que deberíamos tener una ciudadanía global porque problemas como el cambio climático o las crisis económicas no respetan fronteras. un país solo no puede resolver estos líos. pero aquí hay un dilema que me pone a pensar mucho: la democracia necesita pies en la tierra. los griegos hablaban del demos, que es el pueblo ubicado en un territorio concreto. si nos volvemos ciudadanos de todo el mundo, podríamos perder ese ancla, ese compromiso real con nuestra comunidad inmediata.</p>
 <br>
       <p>Me parece un tema fascinante porque nos reta a ser mejores ciudadanos locales pero con una visión abierta al mundo. la tecnología es la herramienta que nos permite ser embajadores de nuestra cultura en cualquier rincón del planeta, pero al final del día, seguimos necesitando esa conexión real con nuestro pueblo y nuestra nación para que la justicia y la democracia tengan sentido. ¿ustedes qué creen? ¿se sienten más ciudadanos de su país o ciudadanos del mundo?</p>
+
+<div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
+        <iframe
+          class="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/toL-U6qf7hg"
+          title="¿Qué es la ciudadanía global?"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
     `
   },
   {
@@ -118,6 +140,19 @@ export const blogPosts = [
       <p>Me parece increíble que la empatía sea algo que todos tenemos pero que debemos cultivar. no es un don mágico, es una habilidad que se entrena. y aquí es donde me puse a reflexionar sobre nuestra infancia: los padres y cuidadores son nuestros primeros maestros en esto. si crecemos en un ambiente donde se validan nuestras emociones y se nos escucha, aprendemos a hacer lo mismo con los demás. por el contrario, si nos cuesta expresar afecto, es probable que nos cueste entender el dolor o la alegría ajena.</p>
 <br>
       <p>En mi futura práctica como licenciada en derecho, quiero que la escucha empática sea mi sello personal. creo que si realmente escuchamos a nuestros clientes y colegas sin intentar corregirlos o juzgarlos de inmediato, generamos una relación de confianza que permite resolver conflictos de forma mucho más auténtica. al final, cuando alguien se siente escuchado y valorado, hay una recompensa mutua que nos ayuda a crecer a todos.</p>
+<br>
+      <div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
+        <iframe
+          class="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/1Evwgu369Jw"
+          title="Qué es la empatía según la Doctora Brené Brown"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <p>Qué es la empatía según la Doctora Brené Brown<p>
+
     `
   },
   {

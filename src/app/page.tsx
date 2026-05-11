@@ -194,6 +194,34 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Referencias Section */}
+      <section id="referencias" className="py-24 bg-accent/30 border-t border-border">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold mb-12 text-navy border-l-4 border-gold pl-6">Referencias <span className="text-gold">Bibliográficas</span> (APA)</h2>
+          
+          <ul className="space-y-6 text-sm text-muted">
+            <li className="pl-8 -indent-8">
+              Boff, L. (2013). <i>Ética planetaria: Desde el punto de vista de los pobres</i>. [Video]. YouTube. https://www.youtube.com/watch?v=TavrTbIib9I
+            </li>
+            <li className="pl-8 -indent-8">
+              CuriosaMente. (2016). <i>Los Derechos Humanos: ¿De dónde vienen y qué son?</i>. [Video]. YouTube. https://www.youtube.com/watch?v=iSi_w2KslK8
+            </li>
+            <li className="pl-8 -indent-8">
+              Naciones Unidas. (1948). <i>Declaración Universal de los Derechos Humanos</i>. Recuperado de https://www.un.org/es/about-us/universal-declaration-of-human-rights
+            </li>
+            <li className="pl-8 -indent-8">
+              RSA. (2013). <i>Brené Brown sobre la empatía</i>. [Video]. YouTube. https://www.youtube.com/watch?v=1Evwgu369Jw
+            </li>
+            <li className="pl-8 -indent-8">
+              UNESCO. (2015). <i>¿Qué es la educación para la ciudadanía mundial?</i>. [Video]. YouTube. https://www.youtube.com/watch?v=toL-U6qf7hg
+            </li>
+            <li className="pl-8 -indent-8">
+              UNIR. (2016). <i>Ética del Diálogo: Martin Buber y Emmanuel Levinas</i>. [Video]. YouTube. https://www.youtube.com/watch?v=rNLOma4tZ_Y
+            </li>
+          </ul>
+        </div>
+      </section>
+
       {/* Post Modal */}
       <AnimatePresence>
         {selectedPost && (
