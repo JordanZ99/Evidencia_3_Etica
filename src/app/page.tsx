@@ -145,7 +145,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Planetary Ethics Banner */}
+      {/* Planetary Ethics Banner (Conclusión) */}
       <section className="py-20 bg-gold text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
           <div className="max-w-xl">
@@ -154,6 +154,31 @@ export default function Home() {
         </div>
         <div className="absolute right-0 top-0 opacity-10 translate-x-1/4 -translate-y-1/4">
           <Globe className="h-96 w-96" />
+        </div>
+      </section>
+
+      {/* Reflexión Final Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <h2 className="text-4xl font-bold mb-8 text-navy">Reflexión <span className="text-gold">Final</span></h2>
+            <div className="space-y-6 text-lg text-muted text-left leading-relaxed">
+              <p>
+                Esta asignatura ha marcado un punto de inflexión en mi perspectiva profesional. Al comprender que los <strong>Derechos Humanos</strong> y la <strong>Ciudadanía Global</strong> no son solo marcos legales, sino compromisos éticos diarios, me siento preparada para ejercer con una responsabilidad mucho más profunda.
+              </p>
+              <p>
+                En mi <strong>entorno laboral</strong>, la práctica de la escucha empática y el diálogo genuino me permitirán no solo resolver conflictos, sino construir puentes de confianza. Entiendo ahora que mi actuar ético contribuye directamente a una cultura organizacional más humana y justa.
+              </p>
+              <p>
+                A nivel <strong>personal</strong>, la ética planetaria me invita a vivir de forma más consciente. Cada decisión, por pequeña que sea, tiene un impacto en nuestra interdependencia global. Esta asignatura no termina aquí; se convierte en la brújula que guiará mi conducta como ciudadana comprometida con la dignidad humana y el cuidado de nuestra casa común.
+              </p>
+            </div>
+          </motion.div>
         </div>
       </section>
 
