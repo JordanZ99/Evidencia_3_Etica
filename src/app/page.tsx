@@ -41,7 +41,7 @@ export default function Home() {
       </section>
 
       {/* Misión Section */}
-      <section id="mision" className="py-24 bg-accent dark:bg-accent/5">
+      <section id="mision" className="py-24 bg-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -50,7 +50,7 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl font-bold mb-6 text-navy dark:text-white">Ética del Diálogo e <span className="text-gold">Interdependencia</span></h2>
+              <h2 className="text-4xl font-bold mb-6 text-navy">Ética del Diálogo e <span className="text-gold">Interdependencia</span></h2>
               <p className="text-lg text-muted mb-6">
                 Creemos que la ética no es un código rígido, sino que se encuentra en el encuentro genuino con el otro. La verdad surge del diálogo auténtico y la escucha profunda.
               </p>
@@ -59,12 +59,12 @@ export default function Home() {
               </p>
             </motion.div>
             <div className="grid grid-cols-2 gap-4">
-              <div className="p-8 bg-white dark:bg-navy rounded-2xl shadow-xl border border-border mt-8">
+              <div className="p-8 bg-white rounded-2xl shadow-xl border border-border mt-8">
                 <Shield className="h-8 w-8 text-gold mb-4" />
                 <h4 className="font-bold mb-2">Justicia</h4>
                 <p className="text-xs text-muted">Defensa de los derechos fundamentales con rigor y pasión.</p>
               </div>
-              <div className="p-8 bg-white dark:bg-navy rounded-2xl shadow-xl border border-border mt-8">
+              <div className="p-8 bg-white rounded-2xl shadow-xl border border-border mt-8">
                 <Globe className="h-8 w-8 text-gold mb-4" />
                 <h4 className="font-bold mb-2">Ciudadanía</h4>
                 <p className="text-xs text-muted">Actuamos localmente con una visión global y digital.</p>
@@ -77,7 +77,7 @@ export default function Home() {
       {/* Empatía Section */}
       <section id="servicios" className="py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-          <h2 className="text-4xl font-bold mb-4 text-navy dark:text-white">Excelencia a través de la <span className="text-gold">Empatía</span></h2>
+          <h2 className="text-4xl font-bold mb-4 text-navy">Excelencia a través de la <span className="text-gold">Empatía</span></h2>
           <p className="text-muted max-w-2xl mx-auto">
             La capacidad de estar en los zapatos del otro es esencial para una resolución de conflictos efectiva y una comunicación auténtica.
           </p>
@@ -92,7 +92,7 @@ export default function Home() {
             <motion.div
               key={idx}
               whileHover={{ scale: 1.05 }}
-              className="p-8 bg-accent dark:bg-accent/5 rounded-2xl text-center border border-transparent hover:border-gold transition-all"
+              className="p-8 bg-accent rounded-2xl text-center border border-transparent hover:border-gold transition-all"
             >
               <item.icon className="h-10 w-10 text-gold mx-auto mb-6" />
               <h3 className="text-xl font-bold mb-4">{item.title}</h3>
@@ -116,24 +116,24 @@ export default function Home() {
                 key={post.slug}
                 whileHover={{ y: -5 }}
                 onClick={() => setSelectedPost(post)}
-                className="bg-white dark:bg-navy p-6 rounded-xl border border-border/10 hover:shadow-2xl transition-all cursor-pointer group"
+                className="bg-white p-6 rounded-xl border border-border/10 hover:shadow-2xl transition-all cursor-pointer group"
               >
                 <div className="flex justify-between items-start mb-4">
-                  <div className="p-3 bg-accent dark:bg-accent/10 rounded-lg text-gold group-hover:scale-110 transition-transform">
+                  <div className="p-3 bg-accent rounded-lg text-gold group-hover:scale-110 transition-transform">
                     <post.icon className="h-6 w-6" />
                   </div>
                   <span className="text-[10px] uppercase tracking-widest font-bold text-muted">{post.date}</span>
                 </div>
 
                 <p className="text-xs font-bold text-gold mb-2 uppercase tracking-tight">{post.category}</p>
-                <h3 className="text-xl font-bold mb-3 leading-tight group-hover:text-gold transition-colors text-navy dark:text-white">
+                <h3 className="text-xl font-bold mb-3 leading-tight group-hover:text-gold transition-colors text-navy">
                   {post.title}
                 </h3>
                 <p className="text-sm text-muted mb-6 line-clamp-3">
                   {post.summary}
                 </p>
 
-                <span className="inline-flex items-center text-sm font-bold text-navy dark:text-white group-hover:text-gold transition-colors">
+                <span className="inline-flex items-center text-sm font-bold text-navy group-hover:text-gold transition-colors">
                   Leer artículo completo
                   <svg className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -149,8 +149,7 @@ export default function Home() {
       <section className="py-20 bg-gold text-white overflow-hidden relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
           <div className="max-w-xl">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 italic">"La Tierra es un barco en peligro... Cuidar la naturaleza es defender la dignidad humana."</h2>
-            <p className="font-medium opacity-90">— Leonardo Boff, Ética Planetaria</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Tras el análisis de los contenidos del Módulo 3, concluyo que la formación ética no es un complemento a mi carrera, sino una parte fundamental. La relación entre estos cinco temas revela una hoja de ruta para el actuar ciudadano:</h2>
           </div>
         </div>
         <div className="absolute right-0 top-0 opacity-10 translate-x-1/4 -translate-y-1/4">
@@ -172,25 +171,25 @@ export default function Home() {
               initial={{ scale: 0.9, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.9, opacity: 0, y: 20 }}
-              className="bg-white dark:bg-navy w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl relative"
+              className="bg-white w-full max-w-4xl max-h-[90vh] overflow-y-auto rounded-3xl shadow-2xl relative"
               onClick={(e) => e.stopPropagation()}
             >
               <button
                 onClick={() => setSelectedPost(null)}
-                className="absolute top-6 right-6 p-2 bg-accent dark:bg-accent/10 rounded-full hover:bg-gold hover:text-white transition-all z-10"
+                className="absolute top-6 right-6 p-2 bg-accent rounded-full hover:bg-gold hover:text-white transition-all z-10"
               >
                 <X className="h-6 w-6" />
               </button>
 
               <div className="p-8 md:p-12">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="p-2 bg-accent dark:bg-accent/10 rounded-lg text-gold">
+                  <div className="p-2 bg-accent rounded-lg text-gold">
                     <selectedPost.icon className="h-6 w-6" />
                   </div>
                   <span className="text-sm font-bold text-gold uppercase tracking-widest">{selectedPost.category}</span>
                 </div>
 
-                <h2 className="text-4xl md:text-5xl font-bold text-navy dark:text-white mb-8 leading-tight">
+                <h2 className="text-4xl md:text-5xl font-bold text-navy mb-8 leading-tight">
                   {selectedPost.title}
                 </h2>
 
@@ -206,8 +205,8 @@ export default function Home() {
                 </div>
 
                 <div
-                  className="prose prose-lg dark:prose-invert max-w-none 
-                  prose-headings:text-navy dark:prose-headings:text-white 
+                  className="prose prose-lg max-w-none 
+                  prose-headings:text-navy 
                   prose-h3:text-2xl prose-h3:mt-12 prose-h3:mb-6
                   prose-p:text-muted prose-p:leading-relaxed prose-p:mb-6
                   prose-strong:text-gold prose-blockquote:border-gold prose-blockquote:bg-accent/5 prose-blockquote:p-6 prose-blockquote:rounded-r-lg prose-blockquote:italic"
@@ -217,7 +216,7 @@ export default function Home() {
                 <div className="mt-12 pt-8 border-t border-border">
                   <button
                     onClick={() => setSelectedPost(null)}
-                    className="px-8 py-3 bg-navy dark:bg-gold text-white rounded-xl font-bold hover:scale-105 transition-transform"
+                    className="px-8 py-3 bg-navy text-white rounded-xl font-bold hover:scale-105 transition-transform"
                   >
                     Cerrar Lectura
                   </button>

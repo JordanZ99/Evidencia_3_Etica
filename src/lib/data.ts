@@ -9,7 +9,7 @@ export const blogPosts = [
     icon: Scale,
     summary: "No son solo leyes, sino un 'ideal común' nacido del dolor de la guerra (1948).",
     content: `
-      <p>Los Derechos Humanos no son solo conceptos abstractos escritos en tratados internacionales; son el cimiento de nuestra convivencia diaria. Nacieron de un ideal común tras el dolor de la Segunda Guerra Mundial en 1948.</p>
+      <p>Los Derechos Humanos no son solo conceptos muy complejos escritos en tratados internacionales; son el cimiento de nuestra convivencia diaria. Nacieron de un ideal común tras el dolor de la Segunda Guerra Mundial en 1948.</p>
       
       <h3>Las Tres Capas de la Justicia</h3>
       <ul>
@@ -36,7 +36,7 @@ export const blogPosts = [
       <h3>Universalismo vs. Diferenciación</h3>
       <p>Existe un debate constante entre tratar a todos por igual ante la ley (Universalismo) y otorgar trato especial a minorías para garantizar una verdadera equidad (Modelo Diferenciado).</p>
 
-      <p>La tecnología ha creado una ciudadanía global, pero para que sea democrática, sigue necesitando un "ancla" en la identidad nacional para ser verdaderamente efectiva y representativa.</p>
+      <p>La tecnología ha creado una ciudadanía global, pero para que sea democrática, sigue necesitando un ancla en la identidad nacional para ser verdaderamente efectiva y representativa.</p>
     `
   },
   {
@@ -47,7 +47,7 @@ export const blogPosts = [
     icon: MessageSquare,
     summary: "La ética no es un código rígido, sino que se encuentra en el encuentro con el 'Otro' (Buber/Levinas).",
     content: `
-      <p>Siguiendo el pensamiento de Buber y Levinas, la ética surge en el encuentro con el "Otro". No es un conjunto de reglas frías, sino una responsabilidad que nace del diálogo.</p>
+      <p>Siguiendo el pensamiento de Buber y Levinas, la ética surge en el encuentro con el otro. No es un conjunto de reglas frías, sino una responsabilidad que nace del diálogo.</p>
       
       <p>La verdad surge del diálogo. <strong>Punto clave:</strong> La conciencia personal es la guía, pero debe equilibrarse con el bien común para no caer en un subjetivismo egoísta.</p>
       
@@ -62,7 +62,7 @@ export const blogPosts = [
     icon: Heart,
     summary: "Capacidad emocional de estar 'en los zapatos del otro'. Es una habilidad cultivable y esencial.",
     content: `
-      <p>La empatía es la capacidad emocional de estar "en los zapatos del otro". En el ámbito profesional, no es solo una cortesía, es una habilidad esencial para la excelencia.</p>
+      <p>La empatía es la capacidad emocional de estar en los zapatos del otro. En el ámbito profesional, no es solo una cortesía, es una habilidad esencial para la excelencia.</p>
       
       <p>Permite una conexión genuina y una comunicación auténtica, rompiendo barreras culturales o de lenguaje. Es una habilidad que se puede cultivar y que transforma nuestras relaciones laborales y personales.</p>
     `
