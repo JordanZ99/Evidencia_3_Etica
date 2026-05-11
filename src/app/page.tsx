@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 import { blogPosts } from "@/lib/data"
-import { Scale, Heart, Shield, Globe, X, Calendar, Tag, Zap, User } from "lucide-react"
+import { Scale, Heart, Shield, Globe, X, Calendar, Tag, Zap, User, Lightbulb } from "lucide-react"
 
 export default function Home() {
   const [selectedPost, setSelectedPost] = useState<typeof blogPosts[0] | null>(null)
@@ -40,8 +40,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Misión Section (Diálogo e Interdependencia) */}
-      <section id="mision" className="py-24 bg-accent">
+      {/* Introducción a la Ética Section */}
+      <section id="introduccion" className="py-24 bg-accent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <motion.div
@@ -50,21 +50,25 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-4xl font-bold mb-6 text-navy">Ética del Diálogo e <span className="text-gold">Interdependencia</span></h2>
+              <h2 className="text-4xl font-bold mb-6 text-navy">Introducción a la <span className="text-gold">Ética</span></h2>
               <p className="text-lg text-muted mb-6">
-                Este video nos muestra la importancia de encontrar un equilibrio en nuestras relaciones interpersonales, reconociendo nuestra naturaleza humana como seres interdependientes.
+                La ética es mucho más que un conjunto de reglas teóricas; es el compás que guía nuestras decisiones diarias. En la vida cotidiana, nos ayuda a convivir con respeto y empatía, construyendo comunidades más fuertes y justas.
               </p>
               <p className="text-lg text-muted">
+                En el ámbito laboral, la ética es el pilar de la confianza. Actuar con integridad no solo mejora el ambiente de trabajo, sino que asegura que nuestras acciones profesionales contribuyan positivamente al bienestar de la sociedad y al éxito sostenible.
               </p>
             </motion.div>
-            <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-2xl border border-border">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/rNLOma4tZ_Y"
-                title="Ética del Diálogo"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="p-8 bg-white rounded-2xl shadow-xl border border-border mt-8">
+                <Lightbulb className="h-8 w-8 text-gold mb-4" />
+                <h4 className="font-bold mb-2">Vida Cotidiana</h4>
+                <p className="text-xs text-muted">Tomar decisiones conscientes basadas en el respeto y la convivencia armónica.</p>
+              </div>
+              <div className="p-8 bg-white rounded-2xl shadow-xl border border-border mt-8">
+                <Scale className="h-8 w-8 text-gold mb-4" />
+                <h4 className="font-bold mb-2">Entorno Laboral</h4>
+                <p className="text-xs text-muted">Actuar con integridad profesional y responsabilidad hacia el impacto social.</p>
+              </div>
             </div>
           </div>
         </div>

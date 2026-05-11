@@ -50,6 +50,16 @@ export const blogPosts = [
       <p>Siguiendo el pensamiento de Buber y Levinas, la ética surge en el encuentro con el otro. No es un conjunto de reglas frías, sino una responsabilidad que nace del diálogo.</p>
       
       <p>La verdad surge del diálogo. <strong>Punto clave:</strong> La conciencia personal es la guía, pero debe equilibrarse con el bien común para no caer en un subjetivismo egoísta.</p>
+
+      <div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
+        <iframe
+          class="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/rNLOma4tZ_Y"
+          title="Ética del Diálogo"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
       
       <p>La interdependencia nos recuerda que nuestras acciones afectan a los demás y que el diálogo es la herramienta fundamental para la resolución de conflictos.</p>
     `
