@@ -67,6 +67,12 @@ export const blogPosts = [
 
       <p>lo que aprendí en este módulo es que, ante problemas tan difíciles, la mejor herramienta que tenemos es la ética del diálogo. me llamó mucho la atención la propuesta de filósofos como martin buber y emanuel levinás. ellos dicen algo muy profundo: la verdad no está en un código de reglas frías, sino en la existencia humana y en el encuentro con el otro. levinás decía que la dignidad de nuestra persona solo se encuentra cuando nos encontramos con los demás y dialogamos de verdad.</p>
 
+      <p>esto significa que somos seres interdependientes. no podemos ser humanos ni éticos nosotros solos en una burbuja. nuestra conciencia nos llama a decidir entre el bien y el mal, y aunque somos autónomos para decidir, esa decisión siempre tiene un impacto en los demás, en los llamados stakeholders, que son todas las personas involucradas en un proyecto o situación, desde los empleados hasta los clientes.</p>
+
+      <p>sin embargo, como futura abogada, también me puse a pensar en los retos que tiene esta forma de ver la ética. no se trata solo de decir sentí que era lo correcto y ya. hay tres cosas que me dejaron pensando mucho. primero, no podemos ser los únicos dictadores de lo que está bien o mal ignorando la sabiduría que ya existe desde hace siglos. segundo, ¿qué pasa cuando no nos ponemos de acuerdo? si el diálogo no llega a un consenso, no significa que no haya algo correcto. y tercero, ¿cómo logramos que un equipo trabaje unido si cada quien solo sigue su perspectiva personal?</p>
+
+      <p>me gusta este enfoque porque valora las diferencias culturales y nos invita a escucharnos, pero creo que el secreto está en el equilibrio. el diálogo es básico para llegar a acuerdos en una sociedad tan mezclada como la nuestra, pero no podemos olvidar que también hay que buscar el bien común y respetar los códigos de conducta que nos dan orden. al final, ser profesional se trata de eso, de sentarnos a platicar, reconocer que nos necesitamos unos a otros y buscar soluciones donde la dignidad de cada persona sea lo más importante. nos vemos en el siguiente post para platicar sobre la empatía.</p>
+
       <div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
         <iframe
           class="absolute inset-0 w-full h-full"
@@ -77,11 +83,7 @@ export const blogPosts = [
         ></iframe>
       </div>
 
-      <p>esto significa que somos seres interdependientes. no podemos ser humanos ni éticos nosotros solos en una burbuja. nuestra conciencia nos llama a decidir entre el bien y el mal, y aunque somos autónomos para decidir, esa decisión siempre tiene un impacto en los demás, en los llamados stakeholders, que son todas las personas involucradas en un proyecto o situación, desde los empleados hasta los clientes.</p>
-
-      <p>sin embargo, como futura abogada, también me puse a pensar en los retos que tiene esta forma de ver la ética. no se trata solo de decir sentí que era lo correcto y ya. hay tres cosas que me dejaron pensando mucho. primero, no podemos ser los únicos dictadores de lo que está bien o mal ignorando la sabiduría que ya existe desde hace siglos. segundo, ¿qué pasa cuando no nos ponemos de acuerdo? si el diálogo no llega a un consenso, no significa que no haya algo correcto. y tercero, ¿cómo logramos que un equipo trabaje unido si cada quien solo sigue su perspectiva personal?</p>
-
-      <p>me gusta este enfoque porque valora las diferencias culturales y nos invita a escucharnos, pero creo que el secreto está en el equilibrio. el diálogo es básico para llegar a acuerdos en una sociedad tan mezclada como la nuestra, pero no podemos olvidar que también hay que buscar el bien común y respetar los códigos de conducta que nos dan orden. al final, ser profesional se trata de eso, de sentarnos a platicar, reconocer que nos necesitamos unos a otros y buscar soluciones donde la dignidad de cada persona sea lo más importante. nos vemos en el siguiente post para platicar sobre la empatía.</p>
+      <p>Este video nos muestra la importancia de encontrar un equilibrio en nuestras relaciones interpersonales, reconociendo nuestra naturaleza humana como seres interdependientes.</p>
     `
   },
   {
@@ -92,9 +94,17 @@ export const blogPosts = [
     icon: Heart,
     summary: "Capacidad emocional de estar 'en los zapatos del otro'. Es una habilidad cultivable y esencial.",
     content: `
-      <p>La empatía es la capacidad emocional de estar en los zapatos del otro. En el ámbito profesional, no es solo una cortesía, es una habilidad esencial para la excelencia.</p>
-      
-      <p>Permite una conexión genuina y una comunicación auténtica, rompiendo barreras culturales o de lenguaje. Es una habilidad que se puede cultivar y que transforma nuestras relaciones laborales y personales.</p>
+      <p>La empatía y escucha es una de las herramientas más poderosas que he descubierto en mi formación y que, honestamente, creo que nos hace mejores seres humanos: la empatía y la escucha activa. elegí este tema porque en el mundo del derecho a veces nos volvemos muy fríos, nos enfocamos en ganar discusiones o en aplicar la ley de forma mecánica, y se nos olvida que frente a nosotros hay una persona con una historia y emociones reales.</p>
+
+      <p>para que la globalización y la convivencia entre diferentes culturas funcionen, no basta con estar conectados por internet; necesitamos construir puentes de verdad. y el primer paso es dejar de esperar que el otro se adapte a nosotros. aprender otro idioma o simplemente respetar el acento y el vocabulario de alguien más es un acto de respeto profundo. como dice el texto, escucharnos es el favor mínimo que podemos hacernos los unos a los otorgar.</p>
+
+      <p>lo que más me marcó de este tema es la visión de rogers. él explica que la empatía no es solo entender lo que el otro piensa de forma intelectual, sino conectar a nivel emocional. es un esfuerzo activo por ver el mundo a través de los ojos de la otra persona, dejando de lado nuestros propios juicios, prejuicios y reacciones. es lo que siempre decimos de ponerse en los zapatos del otro, pero llevado a un nivel donde realmente respetas su individualidad.</p>
+
+      <p>me parece increíble que la empatía sea algo que todos tenemos pero que debemos cultivar. no es un don mágico, es una habilidad que se entrena. y aquí es donde me puse a reflexionar sobre nuestra infancia: los padres y cuidadores son nuestros primeros maestros en esto. si crecemos en un ambiente donde se validan nuestras emociones y se nos escucha, aprendemos a hacer lo mismo con los demás. por el contrario, si nos cuesta expresar afecto, es probable que nos cueste entender el dolor o la alegría ajena.</p>
+
+      <p>en mi futura práctica como licenciada en derecho, quiero que la escucha empática sea mi sello personal. creo que si realmente escuchamos a nuestros clientes y colegas sin intentar corregirlos o juzgarlos de inmediato, generamos una relación de confianza que permite resolver conflictos de forma mucho más auténtica. al final, cuando alguien se siente escuchado y valorado, hay una recompensa mutua que nos ayuda a crecer a todos.</p>
+
+      <p>la empatía nos abre la mente y nos ayuda a comprender mejor el mundo. es el ingrediente secreto para una sociedad más comprensiva y menos violenta. les pregunto: ¿cuándo fue la última vez que escucharon a alguien sin planear qué le iban a contestar antes de que terminara de hablar? intentémoslo hoy, se siente diferente. nos vemos en el último post para cerrar con la ética planetaria.</p>
     `
   },
   {
