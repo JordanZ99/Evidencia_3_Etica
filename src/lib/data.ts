@@ -9,18 +9,27 @@ export const blogPosts = [
     icon: Scale,
     summary: "No son solo leyes, sino un 'ideal común' nacido del dolor de la guerra (1948).",
     content: `
-      <p>Los Derechos Humanos no son solo conceptos muy complejos escritos en tratados internacionales; son el cimiento de nuestra convivencia diaria. Nacieron de un ideal común tras el dolor de la Segunda Guerra Mundial en 1948.</p>
-      
-      <h3>Las Tres Capas de la Justicia</h3>
+      <p>Quiero platicarles sobre un tema que para mí como estudiante de Derecho es fundamental. Elegí la Declaración Universal de los Derechos Humanos porque siento que es la base de todo lo que hacemos en esta carrera. A veces pensamos en las leyes como algo aburrido o solo papeles, pero este documento en especial nació de un momento muy oscuro de la historia, justo después de la Segunda Guerra Mundial, para recordarnos que todos valemos lo mismo sin importar de dónde vengamos.</p>
+
+      <p>Lo que más me gusta de este tema es que no se basa en religión o en dinero, sino en nuestra propia fragilidad humana. Es como un acuerdo que hicimos como especie para no volver a pasar por horrores como los de esa época. Aunque parece algo moderno, tiene raíces muy viejas. Por ejemplo, desde el <strong>Cilindro de Ciro</strong> en el siglo VI a.C. ya se hablaba de dejar que la gente regresara a sus tierras y practicara su religión. Luego pasamos por hitos como la Carta Magna en Inglaterra o lo que los filósofos llamaban Derecho Natural, que es básicamente lo que es válido en todas partes solo por sentido común.</p>
+
+      <p>En clase aprendimos que estos derechos han pasado por un proceso llamado <strong>positivización</strong>, que es básicamente cuando pasan de ser ideas de filósofos a estar escritos en leyes y constituciones. De hecho, en México los conocemos en nuestra Constitución de 1917 como garantías individuales.</p>
+
+      <h3>Las Tres Capas (Generaciones)</h3>
+      <p>Algo que me ayudó mucho a entender esto es dividirlo en capas o generaciones:</p>
       <ul>
-        <li><strong>Civiles/Políticos (Libertad):</strong> Garantías individuales básicas.</li>
-        <li><strong>Económicos/Sociales (Igualdad):</strong> Derechos que buscan equidad social.</li>
-        <li><strong>Colectivos (Solidaridad):</strong> Derechos que nos unen como comunidad.</li>
+        <li><strong>Primera Capa (Libertad):</strong> Son los derechos civiles y políticos, como el derecho a la vida, a la privacidad y a poder elegir a nuestros gobernantes.</li>
+        <li><strong>Segunda Capa (Igualdad):</strong> Busca que el Estado no solo nos deje ser libres, sino que también nos provea salud, educación y trabajo para que todos vivamos mejor.</li>
+        <li><strong>Tercera Capa (Derechos Colectivos):</strong> Es la más nueva; protege a grupos vulnerables como niños, personas con discapacidad o grupos indígenas, e incluso nuestro derecho a vivir en un ambiente limpio.</li>
       </ul>
 
-      <blockquote>"Solo tienen valor si se aplican en la vida cotidiana, no solo en el papel."</blockquote>
+      <blockquote>"De nada sirve tener esta lista de treinta artículos si solo se quedan guardados en un libro."</blockquote>
 
-      <p>Los Derechos Humanos son la base sobre la cual construimos una sociedad justa y equitativa. Su aplicación diaria es lo que les da verdadero significado.</p>
+      <p>Siendo muy honesta, cuando veo las estadísticas de <strong>UNICEF</strong> sobre la desnutrición infantil en comunidades indígenas de México, o que todavía hay millones de adultos que no saben leer ni escribir, me doy cuenta de que los Derechos Humanos se quedan en el papel si nosotros no les damos vida.</p>
+
+      <p>Elegí este subtema porque creo que como futura Licenciada en Derecho, mi trabajo empieza por ser una luchadora sencilla en mi entorno diario. No necesito ser una heroína famosa para respetar al vecino o ayudar a alguien que lo necesita. Si los Derechos Humanos no valen nada en mi casa, en mi escuela o en mi trabajo, entonces no valen nada en ningún otro lugar.</p>
+      
+      <p>Les invito a pensar en cómo pueden aplicar hoy mismo uno de estos derechos en su propio entorno, porque al final, la justicia la construimos todos los días con nuestras acciones más pequeñas.</p>
     `
   },
   {
