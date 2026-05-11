@@ -115,11 +115,27 @@ export const blogPosts = [
     icon: Sprout,
     summary: "La Tierra es un barco en peligro (analogía del Iceberg). Responsabilidad ambiental.",
     content: `
-      <p>Leonardo Boff nos advierte: la Tierra es como un barco en peligro, similar a la analogía del Iceberg. Debemos cambiar de rumbo antes de que sea demasiado tarde.</p>
-      
-      <p>Debemos pasar de una ética de explotación económica a una de <strong>responsabilidad ambiental</strong>. Cuidar la naturaleza es, en última instancia, defender la vida y la dignidad humana.</p>
-      
-      <p>La ética planetaria nos llama a una nueva forma de habitar la Tierra, basada en el cuidado y la sostenibilidad.</p>
+      <p>Finalmente para el último post de este blog, quise elegir el tema de la ética planetaria porque me parece que es lo que protege a todos los temas anteriores. He aprendido que no sirve de nada tener leyes perfectas o una ética de diálogo increíble si no tenemos un lugar sano donde vivir. elegí este subtema de Leonardo Boff porque nos obliga a levantar la mirada de nuestros libros y códigos para ver lo que está pasando con nuestra casa común, la tierra.</p>
+
+      <p>Boff, que es un pensador brasileño super importante y ayudó a redactar la carta de la tierra, nos plantea algo muy serio: ya no estamos solo en una crisis económica o política, estamos en una crisis de supervivencia. él usa una imagen muy fuerte en su libro, comparando nuestra situación con un iceberg o con el arca de noé. básicamente nos dice que en este siglo todas las cosas malas que veníamos haciendo se hicieron más grandes: el maltrato a la naturaleza por ganar dinero rápido, la destrucción de bosques y el abandono de los agricultores.</p>
+
+      <p>lo que más me resuena de su discurso es que él antes se enfocaba mucho en defender a los pobres y oprimidos, pero ahora se dio cuenta de que la naturaleza es la nueva "oprimida". para boff, defender la vida sobre la tierra es defender la dignidad de la gente, porque si el ecosistema colapsa, los primeros en sufrir siempre son los más vulnerables. es un sistema globalizado que, en lugar de ayudarnos a progresar, está soltando fuerzas destructivas que amenazan la vida misma.</p>
+
+      <p>Extendiéndome un poco en lo que esto significa para nosotros, la ética planetaria nos pide pasar de una mentalidad de dueños a una de cuidadores. ya no se trata de ver cuánto podemos sacar de la tierra, sino de cómo podemos convivir con ella. esto conecta perfecto con el derecho ambiental y con la idea de que la naturaleza debería tener derechos propios para ser defendida ante los tribunales.</p>
+
+      <p>decidí cerrar con este tema porque creo que mi generación tiene la responsabilidad de integrar esta conciencia planetaria en todo lo que hagamos. ya sea que estemos redactando un contrato, trabajando en una empresa o participando en nuestra comunidad, siempre debemos preguntarnos si nuestras acciones ayudan a que la vida en el planeta siga siendo posible.</p>
+
+      <p>Espero que estos posts les ayuden a ver que la ética y la ciudadanía no son solo materias que hay que pasar, sino formas de vivir que nos ayudan a ser profesionales más humanos y conscientes de nuestro impacto en el mundo. Muchas gracias!</p>
+
+      <div class="relative w-full aspect-video my-8 rounded-xl overflow-hidden shadow-xl border border-border">
+        <iframe
+          class="absolute inset-0 w-full h-full"
+          src="https://www.youtube.com/embed/TavrTbIib9I"
+          title="Ética Planetaria"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     `
   }
 ]
