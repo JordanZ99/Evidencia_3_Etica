@@ -1,14 +1,14 @@
 import { Scale, Globe, MessageSquare, Heart, Sprout } from "lucide-react"
 
 export const blogPosts = [
-  {
-    slug: "derechos-humanos-fundamentos",
-    title: "11.1 Derechos Humanos",
-    date: "09 Mayo, 2026",
-    category: "Fundamentos de Justicia",
-    icon: Scale,
-    summary: "No son solo leyes, sino un ideal común nacido del dolor de la guerra (1948).",
-    content: `
+      {
+            slug: "derechos-humanos-fundamentos",
+            title: "11.1 Derechos Humanos",
+            date: "09 Mayo, 2026",
+            category: "Fundamentos de Justicia",
+            icon: Scale,
+            summary: "No son solo leyes, sino un ideal común nacido del dolor de la guerra (1948).",
+            content: `
       <p>Para mí el tema de los derechos humanos es fundamental en el ámbito de derecho. Elegí la Declaración Universal de los Derechos Humanos porque siento que es la base de todo lo que hacemos en esta carrera. A veces pensamos en las leyes como algo aburrido o solo papeles, pero este documento en especial nació de un momento muy oscuro de la historia, justo después de la Segunda Guerra Mundial, para recordarnos que todos valemos lo mismo sin importar de dónde vengamos.</p>
 <br>
       <p>Lo que más me gusta de este tema es que no se basa en religión o en dinero, sino en nuestra propia fragilidad humana. Es como un acuerdo que hicimos como especie para no volver a pasar por horrores como los de esa época. Aunque parece algo moderno, tiene raíces muy viejas. Por ejemplo, desde el cilindro de Ciro en el siglo VI a.C. ya se hablaba de dejar que la gente regresara a sus tierras y practicara su religión. Luego pasamos por hitos como la Carta Magna en Inglaterra o lo que los filósofos llamaban Derecho Natural, que es básicamente lo que es válido en todas partes solo por sentido común.</p>
@@ -42,15 +42,15 @@ export const blogPosts = [
       </div>
 
     `
-  },
-  {
-    slug: "ciudadania-digital-global",
-    title: "12.3 Ciudadanía Global y Tecnología",
-    date: "10 Mayo, 2026",
-    category: "Derecho Global",
-    icon: Globe,
-    summary: "Debate entre el modelo Universalista (todos iguales) y el Diferenciado (trato especial a minorías).",
-    content: `
+      },
+      {
+            slug: "ciudadania-digital-global",
+            title: "12.3 Ciudadanía Global y Tecnología",
+            date: "10 Mayo, 2026",
+            category: "Derecho Global",
+            icon: Globe,
+            summary: "Debate entre el modelo Universalista (todos iguales) y el Diferenciado (trato especial a minorías).",
+            content: `
       <p>Para el subtema 12.3 quiero que hablemos de algo que está cambiando por completo la forma en que entendemos nuestro lugar en el mundo. elegí el tema de la ciudadanía global y los avances tecnológicos porque, como estudiante de derecho, me doy cuenta de que las fronteras ya no son muros de piedra, sino líneas que cruzamos todo el tiempo gracias al internet y a la facilidad de movernos de un país a otro.</p>
 <br>
       <p>Seguramente todos tenemos un familiar o un amigo que se fue a otro país buscando mejores oportunidades. esto nos hace preguntarnos qué significa realmente ser ciudadano hoy en día. ¿soy solo ciudadano del lugar donde nací o soy parte de algo mucho más grande? aquí es donde entran conceptos que suenan complicados pero que son parte de nuestra realidad, como el postnacionalismo y lo transnacional.</p>
@@ -76,15 +76,15 @@ export const blogPosts = [
       </div>
 
     `
-  },
-  {
-    slug: "etica-del-dialogo",
-    title: "13.1 Diálogo e Interdependencia",
-    date: "10 Mayo, 2026",
-    category: "Ética Profesional",
-    icon: MessageSquare,
-    summary: "La ética no es un código rígido, sino que se encuentra en el encuentro con el otro.",
-    content: `
+      },
+      {
+            slug: "etica-del-dialogo",
+            title: "13.1 Diálogo e Interdependencia",
+            date: "10 Mayo, 2026",
+            category: "Ética Profesional",
+            icon: MessageSquare,
+            summary: "La ética no es un código rígido, sino que se encuentra en el encuentro con el otro.",
+            content: `
       <p>El subtema 13.1 me parece super necesario para nuestra carrera: el diálogo y la interdependencia. elegí este subtema porque en el derecho solemos pensar que todo se resuelve con un libro de leyes bajo el brazo, pero la realidad es mucho más compleja. estamos rodeados de dilemas éticos que no tienen una respuesta única, desde casos de corrupción o sobornos en los negocios, hasta temas de bioética como el derecho a una muerte digna o la protección del medio ambiente para las generaciones que vienen.</p>
 <br>
       <p>Lo que aprendí en este módulo es que, ante problemas tan difíciles, la mejor herramienta que tenemos es la ética del diálogo. me llamó mucho la atención la propuesta de filósofos como martin buber y emanuel levinás. ellos dicen algo muy profundo: la verdad no está en un código de reglas frías, sino en la existencia humana y en el encuentro con el otro. Levinás decía que la dignidad de nuestra persona solo se encuentra cuando nos encontramos con los demás y dialogamos de verdad.</p>
@@ -109,28 +109,24 @@ export const blogPosts = [
 
       <div class="bg-accent/30 p-8 rounded-2xl border-2 border-gold/20 my-8">
         <h3 class="text-gold font-bold text-2xl mb-4">Actividad: Elaborar un mapa mental de "La Ética del Diálogo e Interdependencia"</h3>
-        <p class="mb-4 italic text-muted">Para aterrizar todos los conceptos que vamos a explorar en este post, te invito a realizar la siguiente actividad. Esto te ayudará a visualizar cómo la ética del diálogo conecta todas las áreas de nuestra vida profesional.</p>
-        
-        <p class="font-bold mb-2 uppercase tracking-widest text-xs text-navy">Instrucciones:</p>
-        <p class="mb-4 text-muted"><strong>Ramas Principales:</strong> Crea al menos cuatro ramas que incluyan:</p>
-        <ul class="list-disc pl-6 space-y-2 mb-6 text-muted">
-          <li><strong>Desafíos Éticos:</strong> (Aquí puedes poner ejemplos de negocios, bioética o medio ambiente).</li>
-          <li><strong>Fundamentos:</strong> (Menciona a autores como Boff o Levinás y el concepto de "el valor del otro").</li>
-          <li><strong>La Conciencia:</strong> (Explica brevemente la autonomía del individuo frente a las reglas).</li>
-        </ul>
-        
+        <p class="mb-4 italic text-muted">Instrucciones:</p>
+        <p class="mb-4 italic text-muted">Crea al menos cuatro ramas que incluyan:</p>
+        <p class="mb-4 italic text-muted">- Desafíos Éticos: (Aquí puedes poner ejemplos de negocios, bioética o medio ambiente).</p>
+        <p class="mb-4 italic text-muted">- Fundamentos: (Menciona a autores como Boff o Levinás y el concepto de "el valor del otro").</p>
+        <p class="mb-4 italic text-muted">- La Conciencia: (Explica brevemente la autonomía del individuo frente a las reglas).</p>
+        <p class="mb-4 italic text-muted">- La Interdependencia: (Describe cómo nos necesitamos unos a otros).</p>
         <p class="text-sm text-muted">Utiliza colores diferentes para cada rama y añade iconos o dibujos que representen los conceptos. ¡Siéntete libre de compartir tu mapa mental con el resto de la clase!</p>
       </div>
     `
-  },
-  {
-    slug: "empatia-escucha-legal",
-    title: "14.1 Empatía y Escucha",
-    date: "10 Mayo, 2026",
-    category: "Habilidades Profesionales",
-    icon: Heart,
-    summary: "Capacidad emocional de estar en los zapatos del otro. Es una habilidad cultivable y esencial.",
-    content: `
+      },
+      {
+            slug: "empatia-escucha-legal",
+            title: "14.1 Empatía y Escucha",
+            date: "10 Mayo, 2026",
+            category: "Habilidades Profesionales",
+            icon: Heart,
+            summary: "Capacidad emocional de estar en los zapatos del otro. Es una habilidad cultivable y esencial.",
+            content: `
       <p>La empatía y escucha es una de las herramientas más poderosas que he descubierto en mi formación y que, honestamente, creo que nos hace mejores seres humanos: la empatía y la escucha activa. elegí este tema porque en el mundo del derecho a veces nos volvemos muy fríos, nos enfocamos en ganar discusiones o en aplicar la ley de forma mecánica, y se nos olvida que frente a nosotros hay una persona con una historia y emociones reales.</p>
 <br>
       <p>Para que la globalización y la convivencia entre diferentes culturas funcionen, no basta con estar conectados por internet; necesitamos construir puentes de verdad. y el primer paso es dejar de esperar que el otro se adapte a nosotros. aprender otro idioma o simplemente respetar el acento y el vocabulario de alguien más es un acto de respeto profundo. como dice el texto, escucharnos es el favor mínimo que podemos hacernos los unos a los otorgar.</p>
@@ -154,15 +150,15 @@ export const blogPosts = [
       <p>Qué es la empatía según la Doctora Brené Brown<p>
 
     `
-  },
-  {
-    slug: "etica-planetaria-responsabilidad",
-    title: "15.1 Ética Planetaria",
-    date: "10 Mayo, 2026",
-    category: "Futuro y Sostenibilidad",
-    icon: Sprout,
-    summary: "La Tierra es un barco en peligro (analogía del Iceberg). Responsabilidad ambiental.",
-    content: `
+      },
+      {
+            slug: "etica-planetaria-responsabilidad",
+            title: "15.1 Ética Planetaria",
+            date: "10 Mayo, 2026",
+            category: "Futuro y Sostenibilidad",
+            icon: Sprout,
+            summary: "La Tierra es un barco en peligro (analogía del Iceberg). Responsabilidad ambiental.",
+            content: `
       <p>Finalmente para el último post de este blog, quise elegir el tema de la ética planetaria porque me parece que es lo que protege a todos los temas anteriores. He aprendido que no sirve de nada tener leyes perfectas o una ética de diálogo increíble si no tenemos un lugar sano donde vivir. elegí este subtema de Leonardo Boff porque nos obliga a levantar la mirada de nuestros libros y códigos para ver lo que está pasando con nuestra casa común, la tierra.</p>
 <br>
       <p>Boff, que es un pensador brasileño super importante y ayudó a redactar la carta de la tierra, nos plantea algo muy serio: ya no estamos solo en una crisis económica o política, estamos en una crisis de supervivencia. él usa una imagen muy fuerte en su libro, comparando nuestra situación con un iceberg o con el arca de noé. básicamente nos dice que en este siglo todas las cosas malas que veníamos haciendo se hicieron más grandes: el maltrato a la naturaleza por ganar dinero rápido, la destrucción de bosques y el abandono de los agricultores.</p>
@@ -185,5 +181,5 @@ export const blogPosts = [
         ></iframe>
       </div>
     `
-  }
+      }
 ]

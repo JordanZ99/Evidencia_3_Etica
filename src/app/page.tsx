@@ -31,7 +31,7 @@ export default function Home() {
             className="max-w-2xl"
           >
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Ética Profesional y Ciudadana<br></br><span className="text-gold">Evidencia 3</span>
+              Ética Profesional y Ciudadanía<br></br><span className="text-gold">Evidencia 3</span>
             </h1>
             <p className="text-xl text-white/80 mb-8">
               Hecho por: Carolina Anaya Sánchez.
@@ -96,7 +96,7 @@ export default function Home() {
               desc: "Es el reconocimiento de que nuestras vidas y acciones están conectadas con los demás. Por lo que nos necesitamos mutuamente para alcanzar un bien común."
             },
             {
-              title: "Agencia Ciudadana",
+              title: "Agenda Ciudadana",
               icon: Zap,
               desc: "Es la responsabilidad de cada individuo para actuar y generar cambios positivos en su comunidad mediante la empatía y el compromiso con la ética planetaria."
             }
@@ -196,26 +196,74 @@ export default function Home() {
 
       {/* Referencias Section */}
       <section id="referencias" className="py-24 bg-accent/30 border-t border-border">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-12 text-navy border-l-4 border-gold pl-6">Referencias <span className="text-gold">Bibliográficas</span> (APA)</h2>
           
-          <ul className="space-y-6 text-sm text-muted">
-            <li className="pl-8 -indent-8">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 text-[11px] leading-relaxed text-muted">
+            <li className="pl-6 -indent-6">
+              United Nations. (s/f). <i>La Declaración Universal de los Derechos Humanos</i>. United Nations. Recuperado el 11 de mayo de 2026, de https://www.un.org/es/about-us/universal-declaration-of-human-rights
+            </li>
+            <li className="pl-6 -indent-6">
+              (S/f). <i>Unric.org</i>. Recuperado el 11 de mayo de 2026, de https://unric.org/es/el-documento-mas-universal-en-el-mundo/
+            </li>
+            <li className="pl-6 -indent-6">
+              Hammarskjöld, N. U. B. (2013, diciembre 30). <i>Documentación de la ONU : Derechos Humanos</i>. Naciones Unidas. Biblioteca Dag Hammarskjöld. https://research.un.org/es/docs/humanrights/undhr
+            </li>
+            <li className="pl-6 -indent-6">
+              UNICEF. (2018). <i>UNICEF presenta análisis sobre la situación de la infancia en México, avances y retos para la garantía de sus derechos</i>. Recuperado de https://www.unicef.org/lac/comunicados-prensa/analisis-sobre-la-situacion-de-la-infancia-en-mexico
+            </li>
+            <li className="pl-6 -indent-6">
+              Alba Vega, C. (2020). <i>La transnacionalización del mundo social. Espacios sociales más allá de las sociedades nacionales</i>. Foro internacional, 60(3), 1207–1221. https://doi.org/10.24201/fi.v60i3.2777
+            </li>
+            <li className="pl-6 -indent-6">
+              (S/f-b). <i>Rae.es</i>. Recuperado el 12 de mayo de 2026, de https://www.rae.es/diccionario-estudiante/transnacional
+            </li>
+            <li className="pl-6 -indent-6">
+              Coello Garcés, C. (2016). <i>Ciudadanía postnacional. Los derechos políticos de las minorías</i>. Universidad de Castilla-La Mancha.
+            </li>
+            <li className="pl-6 -indent-6">
+              Vega, E. (2015). <i>“La agencia ciudadana”</i>. Recuperado de https://www.noroeste.com.mx/opinion/malecon-mazatlan/la-agencia-ciudadana-GNOP91282
+            </li>
+            <li className="pl-6 -indent-6">
+              Interdependencia. (2021, junio 17). <i>Concepto</i>. https://concepto.de/interdependencia/
+            </li>
+            <li className="pl-6 -indent-6">
+              Berrios, O. (2023, octubre 23). <i>La ética de la interdependencia</i>. Plena inclusión; Plena inclusión España. https://www.plenainclusion.org/noticias/la-etica-de-la-interdependencia/
+            </li>
+            <li className="pl-6 -indent-6">
+              Griselda. (2020, junio 5). <i>Habermas y la ética discursiva</i>. Escuela de Ciencias Jurídicas. https://escuelacienciasjuridicas.com/etica-discursiva/
+            </li>
+            <li className="pl-6 -indent-6">
+              Empatía: significado, importancia y características clave. (2025, noviembre 21). <i>Unobravo.com; Unobravo</i>. https://www.unobravo.com/es/blog/que-es-empatia
+            </li>
+            <li className="pl-6 -indent-6">
+              ¿Qué es la empatía y cuál es su importancia? (s/f). <i>Porquequieroestarbien.com</i>. Recuperado el 12 de mayo de 2026, de https://porquequieroestarbien.com/bienestar-emocional/fortalecer-la-mente/que-es-la-empatia-y-cual-es-su-importancia
+            </li>
+            <li className="pl-6 -indent-6">
+              Empatía, “pegamento social” que permite conectarnos con los demás. (2022, diciembre 8). <i>Gaceta UNAM</i>. https://www.gaceta.unam.mx/empatia-pegamento-social-que-permite-conectarnos-con-los-demas/
+            </li>
+            <li className="pl-6 -indent-6">
+              La Carta de la Tierra: avanzando hacia una ética planetaria. (2012, agosto 23). <i>Fundación Melior</i>. https://fundacionmelior.org/archivado/la-carta-de-la-tierra-avanzando-hacia-una-etica-planetaria/
+            </li>
+            <li className="pl-6 -indent-6">
+              (S/f-c). <i>Cartadelatierra.org</i>. Recuperado el 12 de mayo de 2026, de https://cartadelatierra.org/podcast-list/leonardo-boff/
+            </li>
+            <li className="pl-6 -indent-6">
+              del Cerro Santamaría, P. G. (2018, octubre 24). <i>Ética planetaria</i>. Deia. https://www.deia.eus/opinion/2018/10/24/etica-planetaria-4827701.html
+            </li>
+            <li className="pl-6 -indent-6">
               Boff, L. (2013). <i>Ética planetaria: Desde el punto de vista de los pobres</i>. [Video]. YouTube. https://www.youtube.com/watch?v=TavrTbIib9I
             </li>
-            <li className="pl-8 -indent-8">
+            <li className="pl-6 -indent-6">
               CuriosaMente. (2016). <i>Los Derechos Humanos: ¿De dónde vienen y qué son?</i>. [Video]. YouTube. https://www.youtube.com/watch?v=iSi_w2KslK8
             </li>
-            <li className="pl-8 -indent-8">
-              Naciones Unidas. (1948). <i>Declaración Universal de los Derechos Humanos</i>. Recuperado de https://www.un.org/es/about-us/universal-declaration-of-human-rights
-            </li>
-            <li className="pl-8 -indent-8">
+            <li className="pl-6 -indent-6">
               RSA. (2013). <i>Brené Brown sobre la empatía</i>. [Video]. YouTube. https://www.youtube.com/watch?v=1Evwgu369Jw
             </li>
-            <li className="pl-8 -indent-8">
+            <li className="pl-6 -indent-6">
               UNESCO. (2015). <i>¿Qué es la educación para la ciudadanía mundial?</i>. [Video]. YouTube. https://www.youtube.com/watch?v=toL-U6qf7hg
             </li>
-            <li className="pl-8 -indent-8">
+            <li className="pl-6 -indent-6">
               UNIR. (2016). <i>Ética del Diálogo: Martin Buber y Emmanuel Levinas</i>. [Video]. YouTube. https://www.youtube.com/watch?v=rNLOma4tZ_Y
             </li>
           </ul>
